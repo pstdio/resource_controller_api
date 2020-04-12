@@ -6,7 +6,7 @@ package eu.pstdio.resource_controller_api.business.message;
  */
 public interface InputMessage {
     void setLoginId(String loginId);
-    String geLoginId();
-    void setResourceUuid();
+    String getLoginId();
+    void setResourceUuid(String resourceUuid);
     String getResourceUuid();
 }

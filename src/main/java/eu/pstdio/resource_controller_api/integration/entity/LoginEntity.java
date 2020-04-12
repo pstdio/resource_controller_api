@@ -8,5 +8,5 @@ public interface LoginEntity {
     void setId(Long id);
     Long getId();
     void setDisabled(boolean disabled);
-    boolean getDisabled();
+    boolean isDisabled();
 }

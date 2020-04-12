@@ -1,6 +1,6 @@
 package eu.pstdio.resource_controller_api.integration.entity;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  *
@@ -11,8 +11,10 @@ public interface ResourceEntity {
     String getUuid();
     void setUrl(String url);
     String getUrl();
-    void setRolesEntities(List<RoleEntity> rolesEntites);
-    List<RoleEntity> getRolesEntities();
+    void setRolesEntities(Set rolesEntities);
+    Set getRolesEntities();
     void setDisabled(boolean disabled);
-    boolean getDisabled();
+    boolean isDisabled();
+    void setSecured(boolean Secured);
+    boolean isSecured();
 }

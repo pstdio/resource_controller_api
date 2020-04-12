@@ -5,5 +5,5 @@ package eu.pstdio.resource_controller_api.presentation.controller;
  * @author mib
  */
 public interface ResourceController {
-    String isPrivileged(String json);
+    String get(String json);
 }
