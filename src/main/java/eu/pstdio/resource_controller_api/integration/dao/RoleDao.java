@@ -7,6 +7,6 @@ import java.util.List;
  * @author mib
  */
 public interface RoleDao {
-    List getByIdAndLoginId(Long id, Long loginId);
+    List getByNameAndLoginId(String name, Long loginId);
     List getByLoginIdAndResourceUuid(Long loginId, String resourceUuid);
 }
